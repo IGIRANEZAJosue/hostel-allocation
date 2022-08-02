@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body{
+    margin-left: 5%;
+    margin-right: 5%;
+    font-family: "Poppins",Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 8%;
+    background-image: url(./background.png);
+    color: white;
+}
+
+h1{
+    align-items: center;
+    text-align: center;
+    font-size: 32px;
+}
+
+h2{
+    text-align: center;
+}
+
+p{
+    text-align: center;
+}
+
+hr {
+    width: 35%;
+    margin-bottom: 100px;
+}

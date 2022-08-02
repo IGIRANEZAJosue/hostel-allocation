@@ -1,0 +1,46 @@
+
+body{
+    background-color: #04111d;
+    color: white;
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1{
+    text-align: center;
+}
+
+.contacts{
+    padding: 12px;
+    display: flex;
+/*flex-wrap: wrap; */
+    justify-content: space-evenly;
+/*    border: 2px solid white; */
+}
+
+img{
+    width: 110px;
+    height: 110px;
+    border-radius: 1rem;
+}
+
+p{
+    width: 65%;
+}
+
+.name1 {
+    display: flex;
+    gap: 1rem;
+}
+
+.name2{
+    display: flex;
+    gap: 1rem;
+}
+
+.name3{
+    display: flex;
+    gap: 1rem;
+}

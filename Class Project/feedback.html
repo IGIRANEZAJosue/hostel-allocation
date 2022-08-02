@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="feedback.css">
+    <title>Feedback</title>
+    <link rel="icon" href="Icons/message_voice_icon.svg">
+</head>
+<body>
+    <div class="container">
+    
+        <h1>
+            We are ready for your Feedback. 
+        </h1>
+        <h6>
+            If you faced any issue, feel free to contact us, we'll get back to you as soon as we can.  
+        </h6>
+
+        <div class="feedback-form">
+
+            <form action="feedback.php" method="post">
+                <div class="feedback-name">
+                    <img src="Icons/user-solid.svg">
+                    <input class="input" name = "name" placeholder=" Name" type="text" required><br>
+                </div>
+                <div class="feedback-email">
+                    <img src="Icons/envelope-solid.svg" alt="email">
+                    <input class="input" name = "email" placeholder="Email" type=" Email" required>
+                </div>    
+            
+                <div  class="feedback-message">
+                    <img class="message_icon" src="Icons/message_voice_icon.svg" alt="message">
+                    <textarea name="message" placeholder=" Message" maxlength="500"></textarea>
+                </div>    
+                <input class="submit" type="submit" name="submit">
+            </form>
+
+            <!-- <input class="submit" type="submit" name="submit"> -->
+
+        </div>
+        <p>You may want to first check out our 
+            <a href="FAQs.html">FAQs Page</a>
+        </p>
+    </div>    
+
+
+</body>
+</html>

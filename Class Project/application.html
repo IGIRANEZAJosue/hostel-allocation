@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="application.css">
+    <title>Application</title>
+</head>
+<body>
+    
+    <div class="container">
+        <header>Application Form</header>
+
+        <form action="application.php" method="post">
+            <div class="form-first">
+                <div class="personal-details">
+                    <span class="title">Personal details</span>
+
+                    <div class="fields">
+                        <div class="input-field">
+                            <label>Full Name</label>
+                            <input type="text" name="name" placeholder="Enter your name" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Phone Number</label>
+                            <input type="number" name="phoneNumer" placeholder="Enter your Phone Number" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Email</label>
+                            <input type="email" name="email" placeholder="Enter your Email" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Registration Number</label>
+                            <input type="number" name="regNumber" placeholder="Registration Number" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Gender</label>
+                            <input type="text" name="gender" placeholder="Enter your Gender" required>
+                        </div>
+                        
+                        <div class="input-field">
+                            <label>Level Of Study</label>
+                            <input type="number" name="level" placeholder="Enter your Level Of Study" required>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="identity-details">
+                    <span class="title">Place Of Residence</span>
+
+                    <div class="fields">
+                        <div class="input-field">
+                            <label>Country</label>
+                            <input type="text" name="country" placeholder="Enter your Country" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Province</label>
+                            <input type="text" name="province" placeholder="Enter your Province" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>District</label>
+                            <input type="text" name="district" placeholder="Enter your District" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Sector</label>
+                            <input type="text" name="sector" placeholder="Enter your Sector" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Cell</label>
+                            <input type="text" name="cell" placeholder="Enter your Cell" required>
+                        </div>
+                        
+                        <div class="input-field">
+                            <label>Village</label>
+                            <input type="text" name="village" placeholder="Enter your Village" required>
+                        </div>
+                        
+                    </div>
+
+                    <button type="submit" class="nxt-btn">
+                        <span class="btnText">Submit</span>
+                        <i>
+                            <img src="./right-arrow.png" alt="Next">
+                        </i>        
+                    </button>
+
+                </div>
+
+            </div>
+        </form>
+
+    </div>
+
+
+
+</body>
+</html>

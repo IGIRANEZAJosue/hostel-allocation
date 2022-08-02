@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+*{
+    text-decoration: none;
+    color: white;
+    font-family: "Poppins", Verdana, Helvetica, sans-serif;
+}
+
+body{
+    margin-left: 5%;
+    margin-right: 5%;
+    background-color: rgb(3, 2, 21 );
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    overflow: hidden;
+}
+
+ul{
+    
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #34495e8e; 
+    border-radius: 12px;
+    
+}
+
+li{
+    margin-right: 3.125rem;
+    margin-left: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    list-style: none ;
+    height: 1rem;
+    font-size: 120%;
+    
+    
+}
+
+li:hover{
+    color: rgb(1, 255, 192);
+
+}
+
+h1{
+    font-size: 300%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.welcomeText{
+    width: 65%;
+    
+} 
+
+.text{
+    width: 80%;
+    
+    
+}
+
+button{
+    color: #011F4B;
+    font-weight: bold;
+    font-size: 0.85rem;
+    margin-right: 1rem;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+}
+
+.button{
+    margin: auto;
+}
+
+button:hover{
+    color: white;
+    background-color: transparent;
+    border: 2px solid;
+
+}
+
+.logo{
+    margin-top: 0.9rem;
+    margin-right: 2.5rem;
+    margin-left: 0px;
+}
+
+.studentImage{
+    width: 50%;
+    height: 0%;
+}
+
+.container{
+    display: flex;
+}
+
+/*.right-arrow{
+    width: 16px;
+    height: 16px;
+    margin: auto;
+}*/

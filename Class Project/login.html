@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="login.css">
+    <title>Log In</title>
+</head>
+<body>
+    <div class="container">
+
+        <div class="leftPane">
+            <img src="./logo-removebg-preview.png" alt="logo">
+            <h1 class="title">
+                WELCOME TO THE UR HOSTEL ALLOCATION WEB APP
+            </h1>
+        </div>
+
+        <div class="rightPane">
+            <div class="loginTxt">
+                <h1>Log In</h1>
+            </div>
+
+            <div class="loginBox">
+
+                <form action="login.php" method="post">
+                    <label>Name</label>
+                    <input class="input-field" type="text" name="name" placeholder="Enter your names" required>
+
+                    <label>Email</label>
+                    <input class="input-field" type="email" name="email" placeholder="Enter your email" required>
+
+                    <label>Password</label>
+                    <input class="input-field" type="password" name="password" placeholder="Enter your Password" required>
+
+                   <a href="viewStatus.html"><button class="submitBtn" type="submit">Log In</button></a> 
+                </form>
+                
+            </div>
+
+            <p>Don't have an account? 
+                <a href="createAccount.html">Create account</a>
+            </p>
+
+        </div>
+    </div>
+
+</body>
+</html>
